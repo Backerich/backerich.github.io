@@ -1,4 +1,4 @@
-theme: plainwhite
+remote_theme: thelehhman/plainwhite-jekyll
 plainwhite:
   name: Daniel Schmidz
   tagline: Developer. Designer
