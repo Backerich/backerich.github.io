@@ -34,6 +34,7 @@ plainwhite:
 markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
 show_excerpts: true
+mathjax: true
 # plugins:
   # - jekyll-feed
   # - jekyll-redirect-from
