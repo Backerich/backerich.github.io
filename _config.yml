@@ -19,22 +19,26 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://backerich.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+show_excerpts: true
 permalink: /:categories/:title/
+
 plainwhite:
   name: Daniel Schmidt
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
+  portfolio_image: "assets/portfolio.png"
+  dark_mode: true
+  search: true
+  # sitemap: true
 
   # generate social links in footer
   social_links:
-    twitter: backerich
     github:  backerich
     # rss: rss
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 remote_theme: thelehhman/plainwhite-jekyll
-show_excerpts: true
-mathjax: true
+# mathjax: true
 # plugins:
   # - jekyll-feed
   # - jekyll-redirect-from
